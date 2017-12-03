@@ -1,0 +1,7 @@
+package co.kr.fakebook.serviceImpl;
+
+public @interface Resource {
+
+	String name();
+
+}

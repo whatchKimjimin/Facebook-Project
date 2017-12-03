@@ -1,0 +1,6 @@
+package co.kr.fakebook.dto;
+
+public class LikesDTO {
+	private int id;
+	private Date created;
+}

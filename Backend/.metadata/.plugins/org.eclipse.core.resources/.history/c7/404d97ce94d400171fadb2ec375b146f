@@ -1,0 +1,6 @@
+package co.kr.fakebook.dto;
+
+public class TestDTO {
+	private int id;
+	private String title;
+}

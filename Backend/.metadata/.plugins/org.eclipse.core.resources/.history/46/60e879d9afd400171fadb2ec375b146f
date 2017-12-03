@@ -1,0 +1,10 @@
+package co.kr.fakebook.service;
+
+import java.util.List;
+
+import co.kr.fakebook.dto.UsersDTO;
+
+public interface UserService {
+	// All UserDate get
+	public List<UsersDTO> getUser();
+}

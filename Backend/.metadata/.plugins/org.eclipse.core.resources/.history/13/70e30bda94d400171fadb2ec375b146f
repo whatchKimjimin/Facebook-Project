@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+ 
+<mapper namespace="co.kr.fakebook.mapper.TestMapper">
+ 
+    <resultMap type="co.kr.fakebook.dto.TestDTO" id="TestResultList">
+        <result property="id" column="id" />
+        <result property="title" column="title" />
+        <result property="content" column="content" />
+        <result property="date" column="date" />
+    </resultMap>
+ 
+    <select id="selectUsers" resultMap="TestResultList">
+        SELECT * FROM board
+    </select>
+ 
+    <insert id="insertUser" parameterType="com.board.board.dto.TestDTO">
+        INSERT into board (id, title,content,date) values(#{id}, #{title} , #{content} , now())
+    </insert>
+    
+</mapper>

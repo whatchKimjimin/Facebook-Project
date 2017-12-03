@@ -1,0 +1,16 @@
+package co.kr.fakebook.serviceImpl;
+
+import java.util.List;
+import java.util.Map;
+
+import co.kr.fakebook.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public List<Map<String, Object>> getUserList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

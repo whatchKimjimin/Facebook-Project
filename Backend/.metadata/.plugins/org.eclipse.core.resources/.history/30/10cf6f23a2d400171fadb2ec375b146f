@@ -1,0 +1,7 @@
+package co.kr.fakebook.dto;
+
+public class TimeLinesDTO {
+	private int id;
+	private String content;
+	
+}

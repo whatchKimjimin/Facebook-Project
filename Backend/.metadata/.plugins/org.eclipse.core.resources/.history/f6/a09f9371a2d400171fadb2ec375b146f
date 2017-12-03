@@ -1,0 +1,10 @@
+package co.kr.fakebook.dto;
+
+import java.sql.Date;
+
+public class LikesDTO {
+	private int id;
+	private Date created;
+	private int TimeLine_id;
+	private int User_id;
+}

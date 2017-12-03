@@ -1,0 +1,9 @@
+package co.kr.fakebook.dto;
+
+public class CommentsDTO {
+	private int id;
+	private String content;
+	private date created;
+	private int TimeLine_id;
+	private int User_id;
+}

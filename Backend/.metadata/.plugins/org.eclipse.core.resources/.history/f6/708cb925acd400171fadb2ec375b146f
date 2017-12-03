@@ -1,0 +1,5 @@
+package co.kr.fakebook.service;
+
+public interface UserService {
+
+}

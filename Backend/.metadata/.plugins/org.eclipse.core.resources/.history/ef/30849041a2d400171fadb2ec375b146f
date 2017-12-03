@@ -1,0 +1,13 @@
+package co.kr.fakebook.dto;
+
+import java.sql.Date;
+
+public class TimeLinesDTO {
+	private int id;
+	private String content;
+	private Date created;
+	private Date updated;
+	private int User_id;
+	
+	
+}

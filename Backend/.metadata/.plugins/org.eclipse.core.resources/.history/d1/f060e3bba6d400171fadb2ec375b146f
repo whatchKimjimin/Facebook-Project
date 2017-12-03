@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+ 
+<mapper namespace="co.kr.fakebook.mapper.UserMapper">
+ 
+    <resultMap type="co.kr.fakebook.dto.UsersDTO" id="UserResultList">
+        <result property="id" column="id" />
+        <result property="username" column="username" />
+        <result property="userid" column="userid" />
+        <result property="userpassword" column="userpassword" />
+        <result property="created" column="created" />
+    </resultMap>
+ 
+    <select id="selectUsers" resultMap="UserResultList">
+        SELECT * FROM Users
+    </select>
+ 
+    <insert id="insertUser" parameterType="co.kr.fakebook.dto.UsersDTO">
+        INSERT INTO Users (username, userid, userpassword) values(#{id}, #{title})
+    </insert>
+    
+</mapper>

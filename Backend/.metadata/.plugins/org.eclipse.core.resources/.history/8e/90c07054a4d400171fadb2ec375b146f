@@ -1,0 +1,10 @@
+package co.kr.fakebook.mapper;
+
+import java.util.List;
+
+import co.kr.fakebook.dto.UsersDTO;
+
+public interface UserMapper {
+	public List<UsersDTO> selectUser();
+	public void insertUser(UsersDTO userData);
+}

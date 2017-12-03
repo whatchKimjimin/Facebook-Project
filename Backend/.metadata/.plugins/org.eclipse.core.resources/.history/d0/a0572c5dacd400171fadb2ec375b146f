@@ -1,0 +1,7 @@
+package co.kr.fakebook.serviceImpl;
+
+import co.kr.fakebook.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+}

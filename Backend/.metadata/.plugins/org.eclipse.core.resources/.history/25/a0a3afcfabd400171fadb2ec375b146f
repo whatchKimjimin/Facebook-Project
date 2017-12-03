@@ -1,0 +1,23 @@
+package co.kr.fakebook.daoImpl;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import co.kr.fakebook.dao.UserDao;
+
+
+
+@Repository("UserDao")
+public class UserDaoImpl implements UserDao {
+
+	@Autowired
+	private SqlSession sqlSession;
+
+	public void setSqlSession(SqlSession sqlSession) {
+		this.sqlSession = sqlSession;
+	}
+
+	
+
+}

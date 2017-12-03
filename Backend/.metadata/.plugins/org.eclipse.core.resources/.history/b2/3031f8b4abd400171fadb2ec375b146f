@@ -1,0 +1,5 @@
+package co.kr.fakebook.daoImpl;
+
+public class UserDaoImpl {
+
+}

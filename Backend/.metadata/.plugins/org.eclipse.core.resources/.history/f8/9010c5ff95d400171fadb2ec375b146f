@@ -1,0 +1,6 @@
+package co.kr.fakebook.mapper;
+
+public interface TestMapper {
+	public List<TestDTO> selectUsers();
+    public void insertUser(TestDTO data);
+}

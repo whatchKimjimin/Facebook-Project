@@ -1,0 +1,11 @@
+package co.kr.fakebook.dto;
+
+import java.sql.Date;
+
+public class UsersDTO {
+	private int id;
+	private String username;
+	private String userid;
+	private String userpassword;
+	private Date created;
+}

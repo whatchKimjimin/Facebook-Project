@@ -1,0 +1,20 @@
+package co.kr.fakebook.serviceImpl;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import co.kr.fakebook.service.UserService;
+
+@Service("userService")
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public List<Map<String, Object>> getUserList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

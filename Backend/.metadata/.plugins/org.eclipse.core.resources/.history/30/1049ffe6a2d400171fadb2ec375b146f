@@ -1,0 +1,6 @@
+package co.kr.fakebook.dto;
+
+public class UsersDTO {
+	private int id;
+	private String username;
+}

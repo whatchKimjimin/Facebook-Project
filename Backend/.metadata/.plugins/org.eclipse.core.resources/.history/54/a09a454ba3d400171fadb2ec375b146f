@@ -1,0 +1,6 @@
+package co.kr.fakebook.dto;
+
+public class ProfilesDTO {
+	private int id;
+	private String coverImage;
+}

@@ -1,0 +1,5 @@
+package co.kr.fakebook.mapper;
+
+public interface UserMapper {
+	public List<UsersDTO> selectUser;
+}

@@ -1,0 +1,10 @@
+package co.kr.fakebook.dto;
+
+public class FriendsDTO {
+	private int id;
+	private int User_id;
+	private int Friends_id;
+	private int Agree;
+	private Date created;
+	private Date AgreeDate;
+}
