@@ -1,6 +1,9 @@
 FakeBook API
 ============
-
+* Users
+	* 유저 등록
+	* 유저 확인 
+	* 유조 삭제
 * TimeLines
 	* 실시간 타임라인 목록
 	* 프로필 타임라인 목록
@@ -14,10 +17,6 @@ FakeBook API
 	* 댓글 목록
 	* 댓글 작성
 	* 댓글 삭제
-* Users
-	* 유저 등록
-	* 유저 확인 
-	* 유조 삭제
 * Friends 
 	* 친구 목록
 	* 친구 요청
@@ -29,16 +28,18 @@ FakeBook API
 
 Users
 ---------
-> ### 사용자 추가
->> 사용자를 추가할수 있습니다.
+> ### 사용자 등록
+>> 사용자를 등록할 수 있습니다.
 
 #### [Request]
 <pre>
-GET /api/board
+POST /user
 De HTTP/1.1 
 Host : localhost
 </pre>
 
-| Header One | Header Two | Header Three | Header Four |
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+| 키		 	      | 설명 		   		| 타입		   |
+| ----------      | :--------- 		| :----------  | 
+| username        | 유저 이름       	| String       | 
+| userid    	  | 유저 아이디       	| String       | 
+| userpassword    | 유저 비밀번호		| String       | 
