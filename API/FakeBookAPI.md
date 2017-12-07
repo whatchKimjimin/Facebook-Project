@@ -30,10 +30,12 @@ FakeBook API
 Users
 ---------
 > ### 사용자 추가
-> 사용자를 추가할수 있습니다.
+>> 사용자를 추가할수 있습니다.
 
 
 <pre>
+[Request]
+
 GET /api/board
 De HTTP/1.1 
 Host : localhost
