@@ -29,3 +29,8 @@ FakeBook API
 
 Users
 ---------
+<pre>
+	GET /api/board
+	De HTTP/1.1 
+	Host : localhost
+</pre>
