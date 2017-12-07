@@ -43,3 +43,11 @@ Host : localhost
 | username        | 유저 이름       	| String       | 
 | userid    	  | 유저 아이디       	| String       | 
 | userpassword    | 유저 비밀번호		| String       | 
+
+
+### [Response]
+
+| 리턴 값		      | 설명 		   					| 
+| ----------      | :--------- 					| 
+| 0        		  | 아이디 중복 및 등록 실패       	| 
+| 1 	   	  	  | 등록 성공       				| 
